@@ -18,7 +18,7 @@ def demo(opt):
 
 
     """Open csv file wherein you are going to write the Predicted Words"""
-    data = pd.read_csv('/content/Pipeline/data.csv')
+    data = pd.read_csv('/content/data.csv')
 
     """ model configuration """
     if 'CTC' in opt.Prediction:
